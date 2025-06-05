@@ -1,3 +1,11 @@
+def grade(score):
+    if score >= 90:
+        return 'strong'
+    elif score >= 70:
+        return 'moderate'
+    else:
+        return 'weak'
+
 def check_password_strength(password: str) -> int:
     score = 0
     import string
